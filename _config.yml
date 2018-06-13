@@ -1,5 +1,29 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-theme jekyll-theme-slate
-title: Stenusys documentation
-description: [A short description of your site's purpose]
+# Setup
+title:               Stenusys products documentation
+tagline:             How to worl together using Stenusys collaborative tools
+url:                 
+paginate:            1
+baseurl:             "https://stenusys-company.github.io/"
 
+# Assets
+#
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Stenusys
+  url:               https://twitter.com/stenusys
+  email:             contact@stenusys.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/Stenusys-company/stenusys-company.github.io
